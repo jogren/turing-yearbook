@@ -1,0 +1,30 @@
+.section-person {
+  background-color: #fff;
+  opacity: 0.95;
+  margin: 8px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.section-img {
+  height: 270px;
+  width: 250px;
+  border-radius: 5%;
+}
+
+.section-h3 {
+ font-size: 14px;
+ color: orange;
+}
+
+.section-h4 {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.section-h5 {
+  font-size: 16px;
+  color: blue;
+}
