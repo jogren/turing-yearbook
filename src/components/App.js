@@ -21,6 +21,12 @@ class App extends Component {
     // this.setState({ role: [...this.state[role], newMember] });
   }
 
+  deleteMember = (id) => {
+    let filteredStaff = this.state.staff.filter(staffMember => staffMember.id !== id);
+    let filteredStudents = this.state.students.filter(student => student.id !== id);
+    this.setState({ staff: filteredStaff, students: filteredStudents })
+  }
+
   render() {
     return (
       <div className="App">
@@ -29,9 +35,9 @@ class App extends Component {
         </header>
         <TuringForm addMember={this.addMember}/>
         <h2>Staff</h2>
-        <Cohort people={this.state.staff} />
+        <Cohort people={this.state.staff} deleteMember={this.deleteMember} />
         <h2>Student</h2>
-        <Cohort people={this.state.students} />
+        <Cohort people={this.state.students} deleteMember={this.deleteMember} />
       </div>
     );
   }
