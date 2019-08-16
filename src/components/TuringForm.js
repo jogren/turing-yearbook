@@ -46,21 +46,21 @@ class TuringForm extends Component {
         placeholder="Name"
         name="name"
         value={this.state.name}
-        onChange={event => this.enterInfo(event)} 
+        onChange={this.enterInfo} 
         />
         <input 
         type="text" 
         placeholder="Favorite Quote"
         name="quote"
         value={this.state.quote}
-        onChange={event => this.enterInfo(event)} 
+        onChange={this.enterInfo} 
         />
         <input 
         type="text" 
         placeholder="Superlative"
         name="superlative"
         value={this.state.superlative}
-        onChange={event => this.enterInfo(event)} 
+        onChange={this.enterInfo} 
         />
         <section className="form-section">
           <label>

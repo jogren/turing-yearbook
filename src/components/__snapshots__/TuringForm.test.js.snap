@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TuringForm should match the snapshot with all data passed in correctly 1`] = `
+<form
+  className="TuringForm-form"
+>
+  <input
+    name="name"
+    onChange={[Function]}
+    placeholder="Name"
+    type="text"
+    value=""
+  />
+  <input
+    name="quote"
+    onChange={[Function]}
+    placeholder="Favorite Quote"
+    type="text"
+    value=""
+  />
+  <input
+    name="superlative"
+    onChange={[Function]}
+    placeholder="Superlative"
+    type="text"
+    value=""
+  />
+  <section
+    className="form-section"
+  >
+    <label>
+      <input
+        defaultChecked={true}
+        name="memberType"
+        onClick={[Function]}
+        type="radio"
+        value="staff"
+      />
+      Staff
+    </label>
+    <label>
+      <input
+        name="memberType"
+        onClick={[Function]}
+        type="radio"
+        value="students"
+      />
+      Student
+    </label>
+  </section>
+  <button
+    className="form-button"
+    onClick={[Function]}
+  >
+    Add Community Member
+  </button>
+</form>
+`;
