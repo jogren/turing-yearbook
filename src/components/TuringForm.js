@@ -74,7 +74,7 @@ class TuringForm extends Component {
         </section>
         <button className="form-button" onClick={this.submitNewMember}>Add Community Member</button>
       </form>
-    )
+    );
   }
 }
 

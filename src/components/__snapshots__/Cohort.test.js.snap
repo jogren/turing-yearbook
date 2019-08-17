@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort should match the snapshot with all data passed in correctly 1`] = `
+<main
+  className="Cohort-main"
+>
+  <Person
+    deleteMember={[MockFunction]}
+    id={1}
+    key="1"
+    name="Eric"
+    photo="./eric.jpg"
+    quote="You miss all the shots you don't take."
+    superlative="Most Likely to Win the PGA"
+  />
+</main>
+`;

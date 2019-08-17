@@ -14,9 +14,6 @@ class App extends Component {
   }
 
   addMember = (newMember, role) => {
-    console.log(newMember)
-    console.log(role)
-    console.log(this.state[role])
     this.setState({ role: this.state[role].push(newMember) })
     // this.setState({ role: [...this.state[role], newMember] });
   }
