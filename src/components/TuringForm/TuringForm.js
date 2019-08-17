@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './turingForm.css';
+import './TuringForm.css';
 
 class TuringForm extends Component {
   constructor(props) {

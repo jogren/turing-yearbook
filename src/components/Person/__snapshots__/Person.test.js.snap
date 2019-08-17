@@ -5,6 +5,7 @@ exports[`Person should match the snapshot with all data passed in correctly 1`] 
   className="section-person"
 >
   <img
+    alt="Jacob"
     className="section-img"
     src="jacob.png"
   />

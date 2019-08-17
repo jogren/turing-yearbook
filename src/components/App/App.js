@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Cohort from './Cohort';
-import people from '../data/yearbook-data.js';
+import Cohort from '../Cohort/Cohort';
+import people from '../../data/yearbook-data.js';
 import './App.css';
-import TuringForm from './TuringForm';
+import TuringForm from '../TuringForm/TuringForm';
 
 class App extends Component {
   constructor() {
