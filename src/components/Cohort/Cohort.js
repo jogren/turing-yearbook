@@ -1,5 +1,6 @@
 import React from 'react';
 import Person from '../Person/Person';
+import propTypes from 'prop-types';
 import './Cohort.css';
 
 const Cohort = ({people, deleteMember}) => {
@@ -12,6 +13,11 @@ const Cohort = ({people, deleteMember}) => {
       {staffList}
     </main>
   )
+}
+
+Cohort.propTypes = {
+  people: propTypes.array.isRequired,
+  deleteMember: propTypes.func.isRequired
 }
 
 export default Cohort;

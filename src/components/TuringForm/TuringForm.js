@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import propTypes from 'prop-types';
 import './TuringForm.css';
 
 class TuringForm extends Component {
@@ -76,6 +77,10 @@ class TuringForm extends Component {
       </form>
     );
   }
+}
+
+TuringForm.propTypes = {
+  addMember: propTypes.func.isRequired
 }
 
 export default TuringForm;

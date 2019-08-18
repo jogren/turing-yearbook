@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import './Person.css';
 
 const Person = ({id, photo, name, quote, superlative, deleteMember}) => {
@@ -11,6 +12,15 @@ const Person = ({id, photo, name, quote, superlative, deleteMember}) => {
       <button className="Person-button" onClick={() => { deleteMember(id) }}>Delete</button>
     </section>
   )
+}
+
+Person.propTypes = {
+  id: propTypes.number.isRequired,
+  name: propTypes.string.isRequired,
+  quote: propTypes.string.isRequired,
+  superlative: propTypes.string.isRequired,
+  photo: propTypes.string.isRequired,
+  deleteMember: propTypes.func.isRequired
 }
 
 export default Person;
