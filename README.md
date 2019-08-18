@@ -4,11 +4,11 @@ Turing Yearbook was built using the React framework. This app displays both staf
 
 ### Learning Goals
 
-- Write squeaky clean, well refactored code using ES6 syntax.
-- Learn to pass information between components using props.
-- Learn to write readable JSX (your render methods/return statements should be clean and simple).
-- Use propTypes for every component receiving props.
-- Learn how to unit test React components including snapshot testing, methods, and changes in state.
+- Write squeaky clean, well refactored code using ES6 syntax
+- Pass information between components using props
+- Write readable JSX (your render methods/return statements should be clean and simple)
+- Use propTypes for every component receiving props
+- Unit test React components including snapshot testing, methods, and changes in state
 
 ### Technology Used
 
@@ -21,5 +21,5 @@ Turing Yearbook was built using the React framework. This app displays both staf
 ### Installation
 
 - Clone the repo.
-- Set up the dependancies by running npm install
+- Set up the dependancies by running `npm install`
 - Enjoy!
